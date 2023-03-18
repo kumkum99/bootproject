@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+       
+  </head>
+  <body>
+<div class="container-fluid" style="background-color: rgb(37, 40, 40);">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary  navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BookStore</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#Login">Login</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Books
+                </a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.theguardian.com/books/series/the-100-best-novels">Novels</a></li>
+                  <li><a class="dropdown-item" href="https://engage.youth.gov/inspiring-stories">Stories</a></li>
+                  <li><a class="dropdown-item" href="https://www.britannica.com/topic/ethics-philosophy">Ethics</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <center><img src="book.jpg" class="d-block w-100" alt="..."></center>
+          </div>
+          </div>
+          </div>
+
+          
+      
+        <div class=" container mt-3 mb-2 bg-info-subtle text-emphasis-info " id="About">
+          <center><h1 style="font-size: 50px; background-color: rgb(176, 183, 183);">About</h1></center>
+          <p style="font-size: 30px; background-color: rgb(176, 183, 183);">Bookstores sell books and book-adjacent items, of course. But they also may serve as editorial offices, publishing houses, classrooms, and lecture halls, not to mention cafés, play spaces, and reading rooms. Sites of collaboration and exchange, bookstores, like libraries, can help hold a community together.</p>
+        </div>
+        <div class="container mt-3 mb-2 bg-info-subtle text-emphasis-info ">
+          <div class="container text-center">
+            <center><h1 style="font-size: 50px; background-color:rgb(172, 191, 191);">Popular Books</h1></center>
+            <div class="row row-cols-3" style="border: 2px solid black;">
+             
+              <div class="col"style="font-size: 25px; border: 2px solid black; background-color: rgb(248, 163, 242);"> Popular Novels</div>
+              <div class="col"style="font-size: 25px; border: 2px solid black; background-color: rgb(248, 163, 242);">Popular Stories</div>
+              <div class="col"style="font-size: 25px; border: 2px solid black; background-color: rgb(248, 163, 242);">Popular Ethics</div>
+              <div class="col"style="font-size: 20px; border: 2px solid black;  background-color: rgb(270, 215, 229);">Infinite Jest</div>
+              <div class="col"style="font-size: 20px; border: 2px solid black; background-color: rgb(270, 215, 229);">Growing my Business</div>
+              <div class="col"style="font-size: 20px; border: 2px solid black; background-color: rgb(270, 215, 229);">Trolley Problem</div>
+              <div class="col"style="font-size: 20px; border: 2px solid black; background-color: rgb(270, 215, 229);">Rohinton Mistry A fine balance</div>
+              <div class="col"style="font-size: 20px; border: 2px solid black; background-color: rgb(270, 215, 229);">Addressing Housing Insecurity</div>
+              <div class="col"style="font-size: 20px; border: 2px solid black; background-color: rgb(270, 215, 229);">Relativism</div>
+              <div class="col"style="font-size: 20px; border: 2px solid black; background-color: rgb(270, 215, 229);">Call of the wild</div>
+              <div class="col"style="font-size: 20px; border: 2px solid black; background-color: rgb(270, 215, 229);">Black History Month</div>
+              <div class="col"style="font-size: 20px; border: 2px solid black; background-color: rgb(270, 215, 229);">Socrates</div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="container" style="background-color:rgb(172, 191, 191);" id="Login">
+          <h1>Login Form</h1>
+        <form>
+          <div class="mb-3 ">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+     <center><div class=" container row justify content evenly mt-3 " id="Contact">
+      <h2 style="color: white;">Contact me</h2>
+      <div class="col" >
+        <img src="kumkum.jpg" class="img-thumbnail" alt="..." style=" height:20; width:20%;">
+        <div class="text-center">
+          Contact
+          <div class="display-8" style="color: white;">KUMKUM <br>
+          ADIT (IBM)<br>
+        NSTI NOIDA (U.P)<br>
+        kumkumkumari8899@gmail.com
+      </div>
+      </div>
+      </div>
+     </div>
+    </center>
+    </div>
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+      </script>
+  </body>
+</html>
